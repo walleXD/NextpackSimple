@@ -1,6 +1,6 @@
-import express from 'express'
+import { Router } from 'express'
 
-const apiRouter = express.Router()
+const apiRouter = Router()
 
 apiRouter.get('*', (req, res) => {
   res.send('Hello')
