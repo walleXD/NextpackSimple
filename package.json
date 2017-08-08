@@ -21,6 +21,7 @@
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.4.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-import": "^2.7.0",
