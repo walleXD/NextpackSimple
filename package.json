@@ -1,0 +1,33 @@
+{
+  "name": "nextpack-simple",
+  "description": "A fullstack simple react starter template",
+  "version": "0.0.1",
+  "author": "Walee Ahmed <walee.tausif@gmail.com>",
+  "scripts": {
+    "dev": "backpack dev",
+    "build:clean": "rimraf build",
+    "build:next": "rimraf build/clean | next build ./client",
+    "build:backpack": "backpack build",
+    "build": "yarn build:backpack | yarn build:next",
+    "start": "NODE_ENV=production node ./build/main.js"
+  },
+  "dependencies": {
+    "backpack-core": "^0.4.2",
+    "express": "^4.14.0",
+    "next": "latest",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "rimraf": "^2.6.1"
+  }
+}
