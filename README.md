@@ -14,4 +14,5 @@ yarn dev
 For production:
 ```bash
 yarn build
+yarn start
 ```
